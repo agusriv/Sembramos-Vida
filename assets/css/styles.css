@@ -447,6 +447,32 @@ the website, in dark theme
   margin-top: .15rem;
 }
 
+/*===== TESTIMONIAL =====*/
+
+.testimonial__content{
+  display: grid;
+  background-color: var(--first-color-alt);
+  color: var(--first-color-lighten);
+  border-radius: .5rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(47,10,13,.25);
+}
+
+.testimonial__img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.section-subtitle, .section-title{
+  text-align: center;
+  display: block;
+}
+
 /*=============== STEPS ===============*/
 .steps__bg{
   background-color: var(--first-color);
@@ -973,6 +999,16 @@ the website, in dark theme
 
   .home{
     padding: 0 0 5rem ;
+  }
+  .testimonial__container{
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .home__title{
+    font-size: 5rem;
+    padding-top: 8rem;
+  }
+  .home__social{
+    margin-top: 3rem;
   }
 
   .about__img{
