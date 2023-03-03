@@ -519,6 +519,10 @@ the website, in dark theme
   transform: translateY(-.25rem);
 }
 
+.image__service{
+  margin-top: 1rem;
+}
+
 /*=============== PRODUCTS ===============*/
 .product__description{
   text-align: center;
@@ -759,21 +763,13 @@ the website, in dark theme
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  color: var(--title-color);
-  text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: -1px;
   margin-bottom: var(--mb-2-5);
   transition: .3s;
 }
 
 .footer__logo-icon{
-  font-size: 1.15rem;
-  color: var(--first-color);
-}
-
-.footer__logo:hover{
-  color: var(--first-color);
+  width: 100px;
 }
 
 .footer__title{
@@ -910,7 +906,8 @@ the website, in dark theme
 /* For medium devices */
 @media screen and (min-width: 576px){
 
-  .steps__container{
+  .steps__container,
+  .testimonial__container{
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -968,6 +965,10 @@ the website, in dark theme
   }
   .home__social{
     top: 30%;
+  }
+
+  .testimonial__container{
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .questions__container{
