@@ -6,9 +6,9 @@
   --header-height: 3.5rem; /*56px*/
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
+  /*Color mode HSL(hue, saturation, lightness) 24%, 32%) 69%, 23%*/
   --hue: 152;
-  --first-color: hsl(var(--hue), 24%, 32%);
+  --first-color: hsl(var(--hue), 69%, 23%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
   --first-color-light: hsl(var(--hue), 24%, 66%);
   --first-color-lighten: hsl(var(--hue), 24%, 92%);
@@ -429,24 +429,6 @@ the website, in dark theme
   margin-bottom: var(--mb-2);
 }
 
-.about__details{
-  display: grid;
-  row-gap: 1rem;
-  margin-bottom: var(--mb-2-5);
-}
-
-.about__details-description{
-  display: inline-flex;
-  column-gap: .5rem;
-  font-size: var(--small-font-size);
-}
-
-.about__details-icon{
-  font-size: 1rem;
-  color: var(--first-color);
-  margin-top: .15rem;
-}
-
 /*===== TESTIMONIAL =====*/
 
 .testimonial__content{
@@ -471,6 +453,10 @@ the website, in dark theme
 .section-subtitle, .section-title{
   text-align: center;
   display: block;
+}
+
+.testimonial__title{
+  color: var(--first-color-lighten);
 }
 
 /*=============== STEPS ===============*/
