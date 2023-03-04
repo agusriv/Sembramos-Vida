@@ -460,28 +460,28 @@ the website, in dark theme
 }
 
 /*=============== STEPS ===============*/
-.steps__bg{
+.services__bg{
   background-color: var(--first-color);
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
 
-.steps__container{
+.services__container{
   gap: 2rem;
   padding-top: 1rem;
 }
 
-.steps__title{
+.service__title{
   color: #FFF;
 }
 
-.steps__card{
+.services__card{
   background-color: var(--container-color);
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
 }
 
-.steps__card-number{
+.service__card-number{
   display: inline-block;
   background-color: var(--first-color-alt);
   color: #FFF;
@@ -492,16 +492,16 @@ the website, in dark theme
   transition: .3s;
 }
 
-.steps__card-title{
+.service__card-title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
-.steps__card-description{
+.service__card-description{
   font-size: var(--small-font-size);
 }
 
-.steps__card:hover .steps__card-number{
+.service__card:hover .steps__card-number{
   transform: translateY(-.25rem);
 }
 
@@ -876,10 +876,10 @@ the website, in dark theme
     font-size: var(--h1-font-size);
   }
 
-  .steps__bg{
+  .services__bg{
     padding: 2rem 1rem;
   }
-  .steps__card{
+  .services__card{
     padding: 1.5rem;
   }
 
@@ -892,7 +892,10 @@ the website, in dark theme
 /* For medium devices */
 @media screen and (min-width: 576px){
 
-  .steps__container,
+  .home__title{
+    font-size: 4rem;
+  }
+  .services__container,
   .testimonial__container{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -945,6 +948,9 @@ the website, in dark theme
   
   .home{
     padding: 0rem 0 5rem;
+  }
+  .home__title{
+    font-size: 5rem;
   }
   .home__container{
     align-items: center;
@@ -1002,13 +1008,13 @@ the website, in dark theme
     width: 380px;
   }
 
-  .steps__container{
+  .services__container{
     grid-template-columns: repeat(3, 1fr);
   }
-  .steps__bg{
+  .services__bg{
     padding: 3.5rem 2.5rem;
   }
-  .steps__card-title{
+  .service__card-title{
     font-size: var(--normal-font-size);
   }
 
