@@ -125,6 +125,26 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+/*=============== SWIPER PROJECTS ===============*/
+let swiperProjects = new Swiper(".projects__container", {
+    loop: true,
+    spaceBetween: 24,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    breakpoints: {
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: -56,
+      },
+  },
+});
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
