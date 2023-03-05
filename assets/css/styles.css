@@ -429,9 +429,9 @@ the website, in dark theme
   margin-bottom: var(--mb-2);
 }
 
-/*===== TESTIMONIAL =====*/
+/*===== About 2 =====*/
 
-.testimonial__content{
+.about2__content{
   display: grid;
   background-color: var(--first-color-alt);
   color: var(--first-color-lighten);
@@ -442,7 +442,7 @@ the website, in dark theme
   box-shadow: 0 4px 8px rgba(47,10,13,.25);
 }
 
-.testimonial__img{
+.about2__img{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -450,12 +450,12 @@ the website, in dark theme
   margin-bottom: var(--mb-1);
 }
 
-.section-subtitle, .section-title{
+.about2-subtitle, .about2-title{
   text-align: center;
   display: block;
 }
 
-.testimonial__title{
+.about2__title{
   color: var(--first-color-lighten);
 }
 
@@ -1000,7 +1000,7 @@ the website, in dark theme
     font-size: 4rem;
   }
   .services__container,
-  .testimonial__container{
+  .about2__container{
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1081,7 +1081,7 @@ the website, in dark theme
     width: 500px;
   }
 
-  .testimonial__container{
+  .about2__container{
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -1115,7 +1115,7 @@ the website, in dark theme
   .home{
     padding: 0 0 5rem ;
   }
-  .testimonial__container{
+  .about2__container{
     grid-template-columns: repeat(5, 1fr);
   }
   .home__title{
