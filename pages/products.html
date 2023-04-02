@@ -11,10 +11,10 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
 
         <title> Sembramos Vida </title>
     </head>
@@ -23,28 +23,28 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">
-                    <img src="assets/img/Logo.png" alt="Logo-Empresa">
+                    <img src="/assets/img/Logo.png" alt="Logo-Empresa">
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link">Home</a>
+                            <a href="/index.html" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link active-link">About</a>
+                            <a href="/pages/about.html" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="services.html" class="nav__link">Servicios</a>
+                            <a href="/pages/services.html" class="nav__link">Servicios</a>
                         </li>
                         <li class="nav__item">
-                            <a href="products.html" class="nav__link">Products</a>
+                            <a href="#products" class="nav__link active-link">Products</a>
                         </li>
                         <li class="nav__item">
-                            <a href="questions.html" class="nav__link">FAQs</a>
+                            <a href="/pages/questions.html" class="nav__link">FAQs</a>
                         </li>
                         <li class="nav__item">
-                            <a href="contact.html" class="nav__link">Contáctanos</a>
+                            <a href="/pages/contact.html" class="nav__link">Contáctanos</a>
                         </li>
                     </ul>
 
@@ -67,7 +67,7 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home" id="home">
-                <img src="assets/img/home.jpg" alt="" class="home__img">
+                <img src="/assets/img/home.jpg" alt="" class="home__img">
 
                 <div class="home__container container grid">
 
@@ -101,59 +101,96 @@
                 </div>
             </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section container" id="about">
-                <div class="about__container grid">
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Check out our <br> products
+                </h2>
 
-                    <div class="about__data">
-                        <h2 class="section__title about__title">
-                            Un poco sobre <br> nosotros
-                        </h2>
+                <p class="product__description">
+                    Here are some selected plants from our showroom, all are in excellent 
+                    shape and has a long life span. Buy and enjoy best quality.
+                </p>
 
-                        <p class="about__description">
-                            Somos una empresa familiar, la cuál intenta asegurarse de proveer los mejores servicios, contamos con una experiencia de más de 13 años en el rubro. Nos aseguramos de adaptarnos y intentar cumplir todas tus expectativas. También vendemos plantines, tierra abonada, mesas de cultivo y mucho más.
-                        </p>
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
 
-                        <a href="services.html" class="button--link button--flex">
-                            Servicios <i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
-                    </div>
+                        <img src="/assets/img/product1.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cacti Plant</h3>
+                        <span class="product__price">$19.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/assets/img/product2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cactus Plant</h3>
+                        <span class="product__price">$11.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/assets/img/product3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Aloe Vera Plant</h3>
+                        <span class="product__price">$7.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/assets/img/product4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">$5.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/assets/img/product5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">$10.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/assets/img/product6.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Green Plant</h3>
+                        <span class="product__price">$8.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
                 </div>
-            </section>
-
-            <!--===== ABOUT 2 =====-->
-            <section class="about2 section container" id="portafolio">
-                <span class="about2-subtitle">Para conocernos mejor</span>
-                <h2 class="about2-title">Integrantes</h2>
-
-                <div class="about2__container grid ">
-                    <div class="about2__content">
-                        <img src="assets/img/testimonial1.jpg" alt="" class="about2__img">
-                        <h3 class="about2__title">Nik Holly</h3>
-                    </div>
-    
-                    <div class="about2__content">
-                        <img src="assets/img/testimonial2.jpg" alt="" class="about2__img">
-                        <h3 class="about2__title">Sara Mill</h3>
-                    </div>
-    
-                    <div class="about2__content">
-                        <img src="assets/img/testimonial3.jpg" alt="" class="about2__img">
-                        <h3 class="about2__title">Clay Mitchell</h3>
-                    </div>  
-
-                    <div class="about2__content">
-                        <img src="assets/img/testimonial1.jpg" alt="" class="about2__img">
-                        <h3 class="about2__title">Nik Holly</h3>
-                    </div>
-    
-                    <div class="about2__content">
-                        <img src="assets/img/testimonial2.jpg" alt="" class="about2__img">
-                        <h3 class="about2__title">Sara Mill</h3>
-                    </div>
-                </div>
-
             </section>
 
         <!--==================== FOOTER ====================-->
@@ -161,7 +198,7 @@
             <div class="footer__container container grid">
                 <div class="footer__content">
                     <a href="#" class="footer__logo">
-                        <img src="assets/img/Logo.png" class="footer__logo-icon" alt="Logo-Empresa">
+                        <img src="/assets/img/Logo.png" class="footer__logo-icon" alt="Logo-Empresa">
                     </a>
 
                     <h3 class="footer__title">
@@ -214,10 +251,10 @@
                     </h3>
 
                     <div class="footer__cards">
-                        <img src="assets/img/card1.png" alt="" class="footer__card">
-                        <img src="assets/img/card2.png" alt="" class="footer__card">
-                        <img src="assets/img/card3.png" alt="" class="footer__card">
-                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                        <img src="/assets/img/card1.png" alt="" class="footer__card">
+                        <img src="/assets/img/card2.png" alt="" class="footer__card">
+                        <img src="/assets/img/card3.png" alt="" class="footer__card">
+                        <img src="/assets/img/card4.png" alt="" class="footer__card">
                     </div>
                 </div>
             </div>
@@ -231,12 +268,12 @@
         </a>
 
         <!--=============== SCROLL REVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="/js/swiper-bundle.min.js"></script>
         
         <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>
