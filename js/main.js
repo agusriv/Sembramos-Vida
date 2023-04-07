@@ -178,14 +178,14 @@ const sendEmail = (e) =>{
     contactMessage.classList.add('color-red')
 
     // Show message
-    contactMessage.textContent = 'Write all the input fields 📩'
+    contactMessage.textContent = 'Completa todos los campos 📩'
   }else{
     // serviceID - templateID - #form - publicKey
     emailjs.sendForm('service_aooqxbj','template_2s4krds','#contact-form','CKyk1qsCbiaUEVs9j')
       .then(() =>{
         // Show message and add color
         contactMessage.classList.add('color-blue')
-        contactMessage.textContent = 'Message sent ✅'
+        contactMessage.textContent = 'Mensaje enviado ✅'
 
         // Remove message after five seconds
         setTimeout(() =>{
