@@ -844,6 +844,15 @@ the website, in dark theme
   z-index: 10;
 }
 
+/* Status color */
+.color-red{
+  color: hsl(4, 71%, 50%);
+}
+
+.color-blue{
+  color: hsl(207, 56%, 45%);
+}
+
 /*=============== FOOTER ===============*/
 .footer__container{
   row-gap: 3rem;
